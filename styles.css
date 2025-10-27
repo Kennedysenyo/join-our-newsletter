@@ -38,6 +38,10 @@ main {
   text-align: center;
 }
 
+.logo-div {
+  object-fit: cover;
+}
+
 .title {
   font-size: 2.5rem;
   font-weight: 600;
@@ -62,21 +66,23 @@ main {
   margin-bottom: 1.2rem;
 }
 
+.form-div input,
+.form-div button {
+  font-weight: 500;
+  padding: 0.8rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
 .form-div input {
   background-color: #f9fafb;
   color: #000;
-  font-size: 13px;
-  padding: 0.8rem;
-  text-align: center;
-  border-radius: 10px;
   outline: 1px solid #6c727f27;
 }
 .form-div button {
-  padding: 0.8rem;
-  border-radius: 10px;
   background-color: #284bce;
   color: #fff;
-  font-size: 0.9rem;
+  cursor: pointer;
 }
 
 form small {
